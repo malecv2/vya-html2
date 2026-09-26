@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- ctrl + k + c để note -->
+<!-- ctrl + k + u để xoá note -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- có thể viết được nhiều tiếng khác nhau -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- width=device-width: tự chỉnh độ rộng trang web theo màn hình thiết bị -->
+    <!-- initial-scale=1.0: tỷ lệ màn hình bằng 100% để tránh bị nhỏ quá hoặc to quá -->
+    <title>HTML Learning</title>
+</head>
+<body>
+        <a href="/">Home</a>
+        <!-- "/" máy sẽ hiểu đây là index.html -->
+        <a href="/other/my-skill.html">My Skill</a>
+        <a href="/other/alien.html">Secret...</a>
+<main>
+        <!-- chỉ có từ h1 đến h6 -->
+        <h1>Welcome to HTML</h1>
+        <h2>Giới thiệu</h2>
+        <h6>ko co j</h6>
+        <h5>ko co j</h5>
+        <!-- alt + shift + mũi tên xuống để copy nhanh dòng trên -->
+        <h3>I.HTML là gì</h3>
+        <h4>1.Khái niệm</h4>
+        <h7>wtf</h7>
+        <p>Lorem, ipsum dolor.</p>
+        <p>
+            <!-- bôi đen dòng cần + alt + w để ghi <p> nhanh -->
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione corrupti atque reiciendis ullam earum illo dignissimos labore. Aliquid non quis eligendi delectus, amet itaque, praesentium quo autem facilis rerum vel.
+            Nostrum non laboriosam et assumenda dicta aliquam cum quia sunt consequatur magnam fuga nobis quis cupiditate minima iste architecto necessitatibus quidem repudiandae laudantium rerum exercitationem, nisi repellendus autem? Dolores, sed!
+        </p>
+        <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus tempora itaque corrupti nobis eaque magni nemo quasi qui, rerum suscipit illo placeat molestiae, a quia deleniti officiis eligendi vitae. Mollitia.</h5>
+        <p>
+            Lorem ipsum dolor sit.<br> 
+            Lorem ipsum dolor sit.<br>
+            Lorem ipsum dolor sit.<br>
+            Lorem ipsum dolor sit.<br>
+            <!-- ctr + d copy (các dòng phải giống nhau) -->
+            <!-- <br> để xuống dòng, ngắt dòng -->
+            <!-- <hr> : horizontal rule tạo đường kẻ ngang ngăn cách trên trang-->
+        </p>
+        <!-- b : tô đậm (thay bằng strong để thể hiện được nội dung quan trọng) -->
+        <!-- i : in nghiêng (thay bằng em để nhấn mạnh nội dung) -->
+        <!-- u : gạch chân -->
+        <!-- có thể dùng nhiều cùng một lúc -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong><i><u>Est deserunt facilis</u></i></strong> sapiente iure. Officiis dignissimos, ullam, quaerat accusamus, voluptates enim aspernatur corporis beatae adipisci unde a porro eos magnam provident.
+        Aut, cumque repudiandae, <em>sapiente magnam odio</>, hic deleniti in quidem rerum aliquid sint voluptatem.<u> Dicta possimus ea dignissimos</u> eaque deserunt eligendi, impedit cumque nemo quasi illo veniam, molestias assumenda fugit.
+        Mollitia maiores ex modi at blanditiis odit ullam excepturi aspernatur dignissimos tempora eveniet esse, ab tempore, laboriosam maxime quis! Aperiam soluta quasi commodi voluptatum, necessitatibus accusamus nostrum nobis veritatis? Velit?</p>
+        <hr>
+</main>
+    <h1>Cách luộc trứng gà</h1>
+    <h2>1.Chuẩn bị</h2>
+    <ul>
+        <li>Trứng gà : 10 quả</li>
+        <li>Nước lọc : 1000 ML</li>
+    </ul>
+    <h2>2.Luộc trứng</h2>
+    <ol>
+        <li>Sơ chế trứng</li>
+        <li>Bật bếp</li>
+        <li>Đun đến khi nước sôi thì hạ nhỏ lửa. Canh thời gian trứng chín.</li>
+        <li>Vớt trứng ra bát, ngâm nước sạch trong 5 phút rồi bóc vỏ.</li>
+    </ol>
+    <h1>Emmet</h1>
+    <!-- ul>li: tạo thẻ li là thẻ con của ul -->
+    <ul>
+        <li></li>
+    </ul>
+    <!-- ul>li*1,2,3,... : tạo số dòng li theo số đã chọn. VD: ul>li*4 nghĩa là 4 dòng li -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <ol type="I">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+        <li>item6</li>
+        <li>item7</li>
+    </ul>
+    <ol reversed>
+        <li>số ngày đi ỉa 1</li>
+        <li>số ngày đi ỉa 2</li>
+        <li>số ngày đi ỉa 3</li>
+        <li>số ngày đi ỉa 4</li>
+        <li>số ngày đi ỉa 5</li>
+    </ol>
+    <h1>Bài Văn</h1>
+    <ol type="I">
+        <li>Giới thiệu : Lorem ipsum dolor sit amet.</li>
+        <li>Nội dung : Lorem ipsum dolor sit.
+            <ol>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum dolor.
+                    <ul>
+                        <li>Lorem, ipsum.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>Lưu ý : Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Kết thúc : Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
+    </ol>
+    <ul>
+        <li>Menu item 1</li>
+        <li>Menu item 2
+            <ol type="I">
+                <li>menu item 2.1</li>
+                <li>menu item 2.2
+                    <ol>
+                        <li>menu item 2.2.1</li>
+                        <li>menu item 2.2.2</li>
+                        <li>menu item 2.2.3</li>
+                    </ol>
+                </li>
+                <li>menu item 2.3</li>
+                <li>menu item 2.4</li>
+            </ol>
+        </li>
+        <li>Menu item 3</li>
+        <li>Menu item 4</li>
+    </ul>
+    <p>HTML có tên đầy đủ là Hypertext Markup Language nghĩa là ngôn ngữ đánh dấu siêu văn bản. HTML thường được sử dụng để tạo và cấu trúc các phần trong trang web và ứng dụng, phân chia các đoạn văn, heading, link, blockquotes,… 
+    HTML không phải là một ngôn ngữ lập trình mà chỉ là một ngôn ngữ đánh dấu. Điều này đồng nghĩa với việc HTML không thể thực hiện các chức năng “động”. Nói cách khác, HTML tương tự như phần mềm Microsoft Word, chỉ có tác dụng định dạng các thành phần có trong website.</p>
+    <img src="https://images.search.yahoo.com/search/images;_ylt=A2RTGDmei5lqkQIAkr.JzbkF;_ylu=Y29sbwNhcC1zb3V0aGVhc3QtMQRwb3MDNgR2dGlkAwRzZWMDc3I-?fr=mcafee&p=html&imgurl=https%3A%2F%2Fcodybonney.com%2Fimages%2F16x9%2Ftags%2Fhtml.png" alt="đây là ảnh html" width="500" height="400"</img>
+    <hr>
+    <a href="">click to refresh</a>
+    <!-- href="" : refresh web -->
+    <br>
+    <a href="#">click để trở về đầu web</a>
+    <!-- href="#" : quay lại đầu web -->
+    <br>
+    <a href="https://web.archive.org/" target="_blank">trở về tuổi thơ</a><br>
+    <!-- target="_blank" : mở đường link ở tab mới. Nếu không viết gì sẽ mở luôn đè lên tab hiện tại -->
+    <!-- target="_self" : như không viết gì -->
+    <a href="tel:096403908">call me</a><br>
+    <!-- tel:012234... sẽ chuyển hướng cho bạn đến một app gọi điện trong máy-->
+    <a href="mailto:nmc130320007@gmail.com?cc=nguyennguyenmanhmanh123465@gmail.com,admin@gmail.com&subject=help me&bcc:admin2@gmail.com&body:dm email ncc">Email</a><hr>
+    <!-- ko đc có dấu cách trong cả code -->
+    <!-- từ mailto đến cc phải dùng "?", còn lại dùng "&" -->
+    <!-- subject : tiêu đề -->
+    <!-- cc, bcc : email của những người khác mình muốn gửi -->
+    <!-- body : nội dung mail -->
+    <!-- muốn gửi thêm mail ở cc, bcc dùng dấu "," để ngăn cách các email -->
+    <!-- mailto : chuyển hướng đến ứng dụng email để gửi tin nhắn cho mail trong mailto -->
+    <img src="img/mercedes.jpg" alt="car" width="300" height="300">
+    <!-- thẻ alt giúp người dùng có thể tìm kiếm ảnh đó trên google nhanh chóng, google sẽ nhìn alt để đưa kết quả -->
+    <!-- không hiện ảnh trong trường hợp link ảnh không hợp lệ hoặc link bị lỗi ,v.v... -->
+    <!-- sử dụng hình ảnh lưu trên máy tính để không bị lỗi trong trường hợp link ngoài lỗi -->
+    <!-- tạo new folder để tên là img, sau đó ấn reveal file location, tiếp theo paste ảnh vừa cut ra vào đó, cuối cùng gõ lệnh img/file ảnh đó -->
+    <!-- chỉ nên chỉnh 1 trong 2 thuộc tính width hoặc height để ảnh đẹp nhất có thể -->
+    <br>
+    <h1>VỢ NỔI ĐOÁ VỚI SÁNG KIẾN CỦA CHỒNG</h1>
+    <hr>
+    <img src="https://tse1.mm.bing.net/th/id/OIP.hZF4CXb0GczagEK6zNUyCwHaD4?r=0&pid=Api&h=220&P=0" alt="">
+    <p>- Lương tháng này của anh dành ra mua cái máy giặt cửa ngang nhé!</p>
+    <p>Anh chồng càu nhàu:</p>
+    <p>- Em cứ vẽ chuyện</p>
+    <p>- Chứ cái máy giặt cửa đứng nhà mình giặt hại quần áo lắm! - vợ giải thích</p>
+    <p>Anh chồng nhún vai:</p>
+    <p>- Nếu em thích, anh sẽ vật ngửa cái máy giặt cửa đứng nhà mình ra, vậy là nó thành cái máy giặt cửa ngang rồi. Mua bán gì cho lãng phí</p>
+    <p>- !!!</p>
+    <!-- ./ : đường dẫn tương đối - nhận ảnh cùng cấp với html hoặc cấp con có mẹ cùng cấp với html bằng cách ./fileme/filecon  -->
+    <img src="./mercedes.jpg" alt="mẹc" height="500"><br>
+    <img src="./picture/[🌷🖤] « #𝙎𝙐𝙉𝙉𝙔 » #𝙊𝙈𝙊𝙍𝙄𝙁𝘼𝙉𝘼𝙍𝙏.jpg" alt="sunny">
+    <!-- ../ : trở về thư mục trên 1 cấp - xét các thư mục trên html. Mỗi lần ../ là lên 1 cấp -->
+    <img src="../my-html/mercedes.jpg" alt="">
+    <!-- / : đường dẫn tuyệt đối - đi từ file ngoài cùng nối tiếp nhau vào trong -->
+    <img src="/picture/[🌷🖤] « #𝙎𝙐𝙉𝙉𝙔 » #𝙊𝙈𝙊𝙍𝙄𝙁𝘼𝙉𝘼𝙍𝙏.jpg" alt="ah suny">
+    <a href="/other/alien.html"><img src="/picture/alien.jpg" alt=""></a>
+    <!-- <a href="link web><img src="ảnh" alt""></a> : ấn vào ảnh sẽ đưa đến web mình đã code -->
+</body>
+</html>
